@@ -1,12 +1,12 @@
 p {
-  line-height: 1.0;
+  line-height: 1.4;
   margin-bottom: 0px;
   font-family: 'Roboto', Times, serif, Arial, Helvetica, sans-serif;
 }
 body {
   font-size: 18px;
   color: black;
-  background-color: rgb(226, 223, 223);
+  background-color: rgba(129, 124, 175, 0.918);
   padding: 30px;
   width: auto;
   overflow: hidden;
@@ -14,42 +14,34 @@ body {
   overflow-y: auto;
 }
 .image-div {
-width: auto;
-min-width: 160px;
-min-height: auto;
-margin-right: 5px;
-padding: 10px;
+  width: auto;
+padding-right: 10px;
 }
 img {
   border-radius: 20px;
   width: 100%;
 }
 .heading {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  min-width: 50px;
+  width: 70%;
   line-height: 1.6;
-  width: auto;
   padding-bottom: 40px;
 }
 .main-div {
   border: none;
-  display: flex;
-  flex-direction: row;
   width: auto;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   margin-top: 0;
-  align-items: center;
 }
 .ima1 {
-  width: 150px;
-  height: 150px;
+  width: 50%;
+  height: 250px;
+  min-height: 210px;
   object-fit: cover;
 }
 .ima2 {
-  width: 150px;
-  height: 150px;
+  width: 50%;
+  height: 250px;
+  min-height: 210px;
   object-fit: cover;
 }
 .profile {
@@ -65,10 +57,10 @@ img {
   min-width: none;
 }
 .div-profile {
-  display: inline-block;
   object-fit: contain;
 margin-right: 20px;
 width: auto;
+max-width: 230px;
 height: 250px;
 min-width: 0;
 min-height: 0;
@@ -78,7 +70,6 @@ min-height: 0;
   height: auto;
   min-width: 0;
   min-height: 0;
-  display: inline-block;
   align-items: center;
   margin-top: 0;
   font-display: flex;
@@ -89,7 +80,6 @@ min-height: 0;
   border: none;
   min-width: 0;
   min-height: 0;
-  display: flex;
   align-items: center;
   margin-bottom: 40px;
   padding: 8px;
@@ -110,18 +100,17 @@ flex-direction: row;
 padding-left: 20px;
 justify-content: center;
 }
-.one {
-  display: flex;
-  height: 300px;
-  width: 98%;
-}
 .two {
+  min-width: 200px;
   display: flex;
-  height: 300px;
+  max-width: 450px;
+  height: 250px;
   width: 98%;
 }
 .three {
+  max-width: 450px;
+  min-width: 200px;
   display: flex;
-  height: 300px;
+  height: 250px;
   width: 98%;
 }
